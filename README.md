@@ -12,6 +12,9 @@ This Ruby script implements a simple survey system using the PStore gem for data
 ## Code Overview
 ### File Structure
     survey.rb: Main script file containing the survey functionality.
+    spec/survey_spec.rb: Test cases of the survey code and functionality.
+    Gemfile: Library dependencies to run the application.
+    clear_data.rb: Contains code to delete the records from pstore.
 
 ### Dependencies
     PStore: A simple data store for Ruby objects.
