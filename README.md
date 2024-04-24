@@ -17,11 +17,11 @@ This Ruby script implements a simple survey system using the PStore gem for data
     PStore: A simple data store for Ruby objects.
 
 ### Survey Process
-    1. ***Question Prompting:*** Users are prompted with a series of questions defined in the QUESTIONS hash.
-    2. ***Answer Validation:*** User answers are validated to ensure they are either "yes" or "no".
-    3. ***Ratings Calculation:*** Ratings are calculated based on the number of "yes" answers.
-    4. ***Data Persistence:*** User answers and ratings are stored using PStore.
-    5. ***Report Generation:*** A report is generated for each run, displaying the current run's rating and the average rating across all runs.
+* ***Question Prompting:*** Users are prompted with a series of questions defined in the QUESTIONS hash.
+* ***Answer Validation:*** User answers are validated to ensure they are either "yes" or "no".
+* ***Ratings Calculation:*** Ratings are calculated based on the number of "yes" answers.
+* ***Data Persistence:*** User answers and ratings are stored using PStore.
+* ***Report Generation:*** A report is generated for each run, displaying the current run's rating and the average rating across all runs.
 
 ### Code Structure
 
@@ -45,8 +45,8 @@ This Ruby script implements a simple survey system using the PStore gem for data
     do_report(store, answers) # Generate and display a report based on the answers
     
 ## Additional Notes
-> The script handles user input validation to ensure data integrity.
-> Ratings are stored persistently using PStore for future analysis.
+> * The script handles user input validation to ensure data integrity.
+> * Ratings are stored persistently using PStore for future analysis.
 
 # Testing App
     Run: rspec # from terminal to run the test case
